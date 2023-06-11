@@ -2,6 +2,17 @@
     border: 0!important;
 	box-shadow: none !important;
 }
+.dark {
+    --theme: dark;
+    --white: #111;
+	--white2: #222; 
+}
+
+
+
+
+
+
 
 .home_sidebar__4L4yT {
     margin-right: 20px;
@@ -40,4 +51,36 @@
     color: #000;
     text-align: center;
     width: calc(100% - 40px);
+}
+.home_sidebar-body__zSPJN {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.home_chat-item__7LfQR {
+    padding: 6px 10px;
+}
+
+
+
+
+
+
+.home_window-content__RRVow {
+    background-color: var(--white2);
+}
+.home_window-content__RRVow:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    bottom: -6px;
+    left: 6px;
+    right: 6px;
+    z-index: -2;
+    background-color: var(--white2);
+}
+.window-header {
+    border-bottom: 1px solid rgb(0 0 0) !important;
 }
