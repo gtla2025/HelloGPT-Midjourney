@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-page-custom-font */
+import "./styles/hellogpt.scss";
 import "./styles/globals.scss";
 import "./styles/markdown.scss";
 import "./styles/highlight.scss";
-import "./styles/hellogpt.scss";
+
 import { getBuildConfig } from "./config/build";
 
 const buildConfig = getBuildConfig();
