@@ -7,7 +7,7 @@
   background-color: var(--white);
   min-width: 600px;
   min-height: 480px;
-  max-width: 960px;
+  max-width: 1200px;
 
   display: flex;
   overflow: hidden;
@@ -613,6 +613,7 @@
 
 
 
-.home_container__Myqoy {
-	max-width: 960px;
+
+@mixin container {
+  max-width: 960px;
 }
