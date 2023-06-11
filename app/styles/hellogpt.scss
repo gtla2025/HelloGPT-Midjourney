@@ -4,7 +4,7 @@
 }
 .home_sidebar__4L4yT {
     margin-right: 20px;
-    position: relative;
+	width: 240px !important;
     opacity: .96;
 }
 .home_sidebar__4L4yT:after {
@@ -17,6 +17,8 @@
     z-index: -2;
 }
 .home_sidebar__4L4yT, .home_sidebar__4L4yT:after {
-    box-shadow: none;
-    background: #00a899 url(/_next/static/media/bg55.6c5262d2.png) repeat 50%;
+	background: #00a899 url(/_next/static/media/bg55.6c5262d2.png) repeat 50% !important;
+}
+.home_sidebar-actions__zyNfR div:nth-child(3) {
+    display: none;
 }
