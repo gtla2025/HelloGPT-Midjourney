@@ -1,1 +1,22 @@
-
+* {
+    border: 0!important;
+	box-shadow: none !important;
+}
+.home_sidebar__4L4yT {
+    margin-right: 20px;
+    position: relative;
+    opacity: .96;
+}
+.home_sidebar__4L4yT:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    bottom: -6px;
+    left: 6px;
+    right: 6px;
+    z-index: -2;
+}
+.home_sidebar__4L4yT, .home_sidebar__4L4yT:after {
+    box-shadow: none;
+    background: #00a899 url(/_next/static/media/bg55.6c5262d2.png) repeat 50%;
+}
