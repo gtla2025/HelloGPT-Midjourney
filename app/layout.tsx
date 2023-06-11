@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-page-custom-font */
-import "./styles/hellogpt.scss";
 import "./styles/globals.scss";
 import "./styles/markdown.scss";
 import "./styles/highlight.scss";
