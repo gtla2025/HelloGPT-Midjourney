@@ -4,8 +4,8 @@
 }
 .dark {
     --theme: dark;
-    --white: #111;
-	--white2: #222; 
+    --white: #111 !important; 
+	--white222: #222; 
 }
 
 
@@ -69,7 +69,8 @@
 
 
 .home_window-content__RRVow {
-    background-color: var(--white2);
+    background-color: var(--white222);
+	position: relative;
 }
 .home_window-content__RRVow:after {
     content: "";
@@ -79,7 +80,7 @@
     left: 6px;
     right: 6px;
     z-index: -2;
-    background-color: var(--white2);
+    background-color: var(--white222);
 }
 .window-header {
     border-bottom: 1px solid rgb(0 0 0) !important;
